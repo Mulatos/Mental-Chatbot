@@ -1,4 +1,18 @@
 body{
 
-    background-color: #0CBABA;
+    background-color: #95afc0;
+
 }
+
+.Chatbot{
+
+    position: fixed;
+    bottom: 5px;
+    right:37%;
+    text-align: center;
+    background-color: #BDD4E7;
+    height: 420px;
+    width: 350px;
+    
+}
+
