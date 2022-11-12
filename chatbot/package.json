@@ -1,0 +1,26 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserdist": "browserify ./index.js | terser --compress --mangle > ./bundle.js"
+  },
+  "author": "Dries Van Goidsenhoven",
+  "license": "ISC",
+  "dependencies": {
+    "@nlpjs/basic": "^4.23.5",
+    "@nlpjs/core": "^4.23.4",
+    "@nlpjs/directline-connector": "^4.23.4",
+    "@nlpjs/express-api-server": "^4.23.4",
+    "@nlpjs/lang-en-min": "^4.23.4",
+    "@nlpjs/msbf-connector": "^4.23.5",
+    "@nlpjs/nlp": "^4.23.5",
+    "@nlpjs/request-rn": "^4.23.4"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "terser": "^5.15.1"
+  }
+}

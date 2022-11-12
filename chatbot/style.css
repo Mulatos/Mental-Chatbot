@@ -1,0 +1,144 @@
+*{
+	margin: auto;
+	padding: auto;
+	font-family:'Roboto Mono', "sans-serif";
+}
+
+body{
+    background-color: #95afc0;
+}
+
+.messages{
+	color:#000;
+	font-size: 1.2rem;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	height: 90%;
+	width: 100%;
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+header{
+	text-transform: uppercase;
+	height:2rem;
+	text-align: center;
+	background-color:#BDD4E7;
+	padding-top: 0.75rem;
+	padding-bottom: 3rem;
+	font-size: 1.5rem;
+}
+
+.title{
+	color:#fff;
+	letter-spacing: 0.8rem;
+}
+
+#input{
+	padding: 0.75rem;
+	border: none;
+	border-radius: 0.3rem;
+	width: 30rem;
+	height:1.5rem;
+	margin-top: 2.5rem;
+	font-size: 1.25rem;
+}
+
+.container {
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.chat {
+	height: 18.75rem;
+	width: 60vw;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	align-items: center;
+} 
+
+.chatbox-header{
+	text-align: center;
+    background-color: #95afc0;
+	height:22rem;
+}
+
+.chatbox-title{
+	letter-spacing: 0.3rem;
+	color: #fff;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+}
+
+.linktitle{
+	color:#fff;
+	letter-spacing: 0.25rem;
+	font-weight: bold;
+}
+
+footer{
+	color:#fff;
+	font-size: 0.9rem;
+	text-align: center;
+	background-color: #BDD4E7;
+	height:6.25rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.credits{
+	margin-top: 4rem;
+}
+
+button{
+	padding: 0.8rem;
+    border-radius: 0.35rem;
+	border:none;
+	background-color: #254c6c;
+	color:#fff;
+	letter-spacing: 0.2rem;
+	font-weight: bold;
+}
+
+button:hover{
+	background-color: #fff;
+	color:#254c6c;
+	box-shadow: 0.25rem 0.35rem #254c6c;
+}
+
+.image{
+	background: url(./img/pexels-cottonbro-studio-6153740.jpg);
+	background-size:cover;
+	height:93.75rem;
+}
+
+.catty{
+	text-align: center;
+	height:25rem;
+	padding-top: 8rem;
+}
+
+.linkbot{
+	margin:5rem;
+}
+
+@media only screen and (max-width: 980px) {
+	.container {
+		  flex-direction: column; 
+		  justify-content: flex-start;
+	  }
+	  .chat {
+		  width: 75vw;
+		  margin: 10vw;
+	  }
+  }
